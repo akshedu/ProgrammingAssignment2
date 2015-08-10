@@ -1,5 +1,5 @@
-## The function makeCacheMatrix takes a matrix and converts it into a list of functions.
-## These functions are used in the cacheSolve function to check if the inverse of the matrix is already calculated, if yes it resturn the same inverse, else it calculated the inverse and returns that
+## The function makeCacheMatrix takes a matrix and converts it into a list of functions which can be used to access the matrix, change the matrix, get the inverse and set the inverse
+## These functions are used in the cacheSolve function to check if the inverse of the matrix is already calculated, if yes it returns the same inverse, else it calculates the inverse and returns that
 
 ## Sets and gets the matrix and its inverse
 
